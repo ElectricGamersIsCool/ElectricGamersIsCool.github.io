@@ -1,0 +1,36 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times, Serif;
+    color: white; 
+    background-color: black; 
+}
+
+.header {
+    padding: 2rem; 
+    margin: 1rem 0px; 
+    text-align: center; 
+}
+
+.bio {
+    margin: 1rem 0px;
+    padding: 0px 0.5rem; 
+    max-width: 40rem; 
+    align-items: center;
+}
+
+.bio > h1 {
+    font-size: 2rem; 
+    font-weight: 700; 
+    text-align: center; 
+}
+
+.bio > p {
+    font-size: 1.5rem;
+    line-height: 1.0; 
+    text-align: center;
+}
